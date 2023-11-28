@@ -11,20 +11,20 @@ from gurux_dlms.GXDLMSTranslatorMessage import GXDLMSTranslatorMessage
 from bs4 import BeautifulSoup
 
 # EVN Schlüssel eingeben zB. "36C66639E48A8CA4D6BC8B282A793BBB"
-evn_schluessel = "dein_Schlüssel"
+evn_schluessel = 7D240D6AA0336F83D5D95E84A2D30D62
 
 #MQTT Verwenden (True | False)
-useMQTT = False
+useMQTT = True
 
 #MQTT Broker IP adresse Eingeben ohne Port!
-mqttBroker = "192.168.1.10"
+mqttBroker = 192.168.178.32
 mqttuser =""
 mqttpasswort = ""
 #Aktuelle Werte auf Console ausgeben (True | False)
 printValue = True
 
 #Comport Config/Init
-comport = "/dev/ttyUSB0"
+comport = /dev/ttyS0
 
 
 #MQTT Init
